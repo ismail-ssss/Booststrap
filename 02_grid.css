@@ -1,25 +1,25 @@
-.panel {
-  border-radius: 0.3rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
+body {
+  background: aqua;
 }
 
-.panel.panel-blue {
-  border: 1px solid blue;
-  background-color: pink;
-  color: blue;
-}
-.panel.panel-yellow {
-  border: 1px solid yellow;
-  background-color: pink;
-  color: yellow;
-}
-.panel.panel-pink {
-  border: 1px solid red;
-  background-color: pink;
-  color: red;
+.card-box:hover > :not(:hover) {
+  opacity: 0.5;
 }
 
-.panel.panel-purple {
-  border: 1px solid rgb(150, 6, 246);
+.card {
+  box-shadow: 8px 8px 8px;
+  background: transparent;
+  transition: opacity 0.9s ease;
+  transition: 0.8s;
+}
+
+.card:hover {
+  text-shadow: 0 0 10px black;
+  font-weight: bolder;
+  transform: perspective(1200px) rotatey(20deg);
+}
+
+.btn {
+  background: rgb(0, 182, 182);
+  border-color: rgb(0, 182, 182);
 }
