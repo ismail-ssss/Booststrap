@@ -1,0 +1,25 @@
+.panel {
+  border-radius: 0.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.panel.panel-blue {
+  border: 1px solid blue;
+  background-color: pink;
+  color: blue;
+}
+.panel.panel-yellow {
+  border: 1px solid yellow;
+  background-color: pink;
+  color: yellow;
+}
+.panel.panel-pink {
+  border: 1px solid red;
+  background-color: pink;
+  color: red;
+}
+
+.panel.panel-purple {
+  border: 1px solid rgb(150, 6, 246);
+}
