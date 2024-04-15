@@ -1,0 +1,75 @@
+.container {
+  width: 450px;
+  border: 3px solid rgb(106, 159, 0);
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 8px 8px 1px;
+  background: linear-gradient(
+    160deg,
+    red,
+    green,
+    orange,
+    yellowgreen,
+    pink,
+    black,
+    chocolate,
+    blue,
+    purple,
+    yellow,
+    brown,
+    white,
+    cyan
+  );
+}
+
+.btn {
+  width: 100%;
+  background: yellowgreen;
+  box-shadow: 8px 8px 1px;
+  background: linear-gradient(
+    160deg,
+    red,
+    green,
+    orange,
+    yellowgreen,
+    pink,
+    black,
+    chocolate,
+    blue,
+    purple,
+    yellow,
+    brown,
+    white,
+    cyan
+  );
+}
+.cbc {
+  border-color: rgb(106, 159, 0);
+  background-color: rgb(170, 255, 0);
+}
+.btn:hover {
+  background: rgba(194, 255, 72, 0.6);
+}
+
+.bg {
+  border-color: rgb(106, 159, 0);
+  background-color: rgba(170, 255, 0, 0.2);
+  box-shadow: 8px 8px 1px;
+  background: linear-gradient(
+    160deg,
+    red,
+    green,
+    orange,
+    yellowgreen,
+    pink,
+    black,
+    chocolate,
+    blue,
+    purple,
+    yellow,
+    brown,
+    white,
+    cyan
+  );
+}
